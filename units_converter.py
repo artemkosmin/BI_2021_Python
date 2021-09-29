@@ -1,18 +1,18 @@
 def convert_to_celsius(fahrenheit):
-    c = (fahrenheit - 32) * 5 / 9
-    print(c)
+    C = (fahrenheit - 32) * 5 / 9
+    print(C)
 def convert_to_fahrenheit(celsius):
-    f = celsius * 9 / 5 + 32
-    print(f)
+    F = celsius * 9 / 5 + 32
+    print(F)
 
 user_input = input('From what do you want to convert?: ')
 
-if user_input == 'celsius':
-        print ('To convert a temperature from Celsius to Fahrenheit:')
-        cels = float(input('CELSIUS: '))
-        convert_to_fahrenheit(cels)
+if user_input == 'Celsius':
+    print('To convert a temperature from Celsius to Fahrenheit:')
+    CELSIUS = float(input('CELSIUS: '))
+    convert_to_fahrenheit(CELSIUS)
 
-elif user_input == 'fahrenheit':
-    print ('To convert a temperature from Fahrenheit to Celsius:')
-    fahr = float(input('FAHRENHEIT: '))
-    convert_to_celsius(fahr)
+elif user_input == 'Fahrenheit':
+    print('To convert a temperature from Fahrenheit to Celsius:')
+    FAHRENHEIT = float(input('FAHRENHEIT: '))
+    convert_to_celsius(FAHRENHEIT)
